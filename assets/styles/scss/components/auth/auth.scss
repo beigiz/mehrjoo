@@ -1,0 +1,95 @@
+.auth{
+    font-size: 10px;
+    // background-image: url("~assets/images/authBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: auto;
+    &__home_btn{
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+
+    &__content{
+        // display: flex;
+        // flex-direction: row;
+        // align-items: center;
+        // justify-content: center;
+        // padding-top: 10%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        &__image_container{
+
+            &__image {
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+.fade-in { 
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@media(max-width: 400px){
+    .login__header__title{
+        font-size: 2em !important;
+    }
+
+    .login__header__icon{
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+    }
+
+    .verify__header__title{
+        font-size: 2em !important;
+    }
+
+    .verify__header__icon{
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+    }
+
+    .register__header__title{
+        font-size: 2em !important;
+    }
+
+    .register__header__icon{
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+    }
+}

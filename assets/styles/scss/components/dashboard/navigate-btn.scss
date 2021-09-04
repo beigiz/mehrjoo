@@ -1,0 +1,48 @@
+
+.navBtn{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 10%;
+
+    
+    padding: 5px 20px 5px 20px;
+    &__title{
+        color: $lightGray;
+        font-size: 2em;
+        margin-bottom: 0px;
+        margin-right: 10%;
+    }
+
+    &__icon{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    &__notif{
+        width: 0.8rem;
+        height: 0.8rem;
+        margin-bottom: 10%;
+        margin-right: 5%;
+
+    }
+}
+
+.isRed p{
+    color: $redColor;
+}
+
+.isSelected p{
+    color: #ffffff;
+    font-weight: bold;  
+}
+
+.isSelected {
+    background-color: $primaryColor;
+    
+}

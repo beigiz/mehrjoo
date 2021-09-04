@@ -1,0 +1,21 @@
+.vpd-input-group label{
+    background-color: $primaryColor !important;
+}
+
+.vpd-header{
+    background-color:  $lightGray !important;
+}
+
+.vpd-day-effect{
+    background-color:  $primaryColor !important;
+}
+
+.vpd-actions button{
+    color: $darkColor !important;
+}
+
+.vpd-actions button:hover{
+    background-color: $primaryColor !important;
+    color: white !important;
+    border-radius: 5px;
+}

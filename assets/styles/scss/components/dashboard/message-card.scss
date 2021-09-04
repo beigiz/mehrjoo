@@ -1,0 +1,90 @@
+.msg_card{
+    display: flex;
+    align-items: flex-start;
+    direction: rtl;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding: 30px 5% 30px 5%;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px -5px rgba(0, 0, 0, 0.1),
+    0 20px 10px -5px rgba(0, 0, 0, 0.04) !important;
+    
+    &__content{
+        width: 100%;
+        font-size: 1.6em;
+        &__first_row{
+
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            direction: rtl;
+            &__subject{
+                display: flex;
+            }
+
+            &__title{
+                color: $primaryColor;
+                font-weight: bold;
+                margin-left: 30px;
+            }
+
+            &__date{
+                display: flex;
+            }
+    
+            &__text{
+                color: $darkColor
+            }    
+        }
+    
+
+        &__text_msg{
+            color: $darkColor;
+            direction: rtl;
+            color: $darkColor;
+            direction: rtl;
+            border-right-style: solid;
+            border-right-width: 3px;
+            border-right-color: $lightGray;
+            
+            padding: 8px 15px 8px 0px;
+        }
+    }
+
+    &__new_msg{
+        margin-left: 30px;
+        margin-top: -7px;
+        &__icon{
+            width: 2.5rem;
+        }
+
+        &__text{
+            margin: 0px;
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+
+
+}
+
+
+@media(max-width: 754px){
+    .msg_card__content__first_row{
+        flex-direction: column;
+        
+    }
+
+    .msg_card{
+        flex-direction: column;
+    }
+
+    .msg_card__new_msg{
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

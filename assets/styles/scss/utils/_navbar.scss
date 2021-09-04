@@ -1,0 +1,89 @@
+.landing-navbar {
+  background: rgba($color: #000000, $alpha: 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  direction: rtl;
+  text-align: right;
+  border-bottom: none;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 10px;
+  right: 225px;
+  z-index: 1000;
+  display: none;
+}
+
+.navbar-desktop {
+  .ant-menu-inline {
+    text-align: right;
+  }
+
+  // font-size: 16px;
+  font-size: 1rem;
+  display: block;
+  z-index: 100;
+
+  li {
+    color: white !important;
+
+    * {
+      color: white !important;
+    }
+
+  }
+
+  .ant-menu-submenu-active {
+    text-align: right !important;
+
+    li {
+      text-align: right !important;
+    }
+  }
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-desktop {
+    display: none;
+  }
+
+  .menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 1000;
+    display: block;
+  }
+
+  .menu-close {
+    right: 225px;
+    transition: 0.3s;
+  }
+
+  .navbar-mobile {
+    display: block;
+    position: absolute;
+    right: -256px;
+    transition: 0.3s;
+    z-index: 999;
+    height: 100%;
+    position: fixed;
+  }
+
+  .navbar-mobile--active {
+    right: 0;
+    transition: 0.3s;
+  }
+}
+
+
+.ant-menu-sub.ant-menu-inline>.ant-menu-item,
+.ant-menu-sub.ant-menu-inline>.ant-menu-submenu>.ant-menu-submenu-title {
+  text-align: right;
+}

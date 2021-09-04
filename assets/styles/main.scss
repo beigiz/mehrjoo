@@ -1,0 +1,99 @@
+@import "./scss/variables.scss";
+
+@import "./scss/components/date-picker.scss";
+@import "./scss/components/input.scss";
+@import "./scss/components/auth/auth.scss";
+@import "./scss/components/auth/login.scss";
+@import "./scss/components/auth/home-btn.scss";
+@import "./scss/components/auth/verify.scss";
+@import "./scss/components/auth/register.scss";
+@import "./scss/components/dashboard/menu.scss";
+@import "./scss/components/dashboard/navigate-btn.scss";
+@import "./scss/components/dashboard/dashboard.scss";
+@import "./scss/components/dashboard/profile.scss";
+@import "./scss/components/dashboard/title-dashboard.scss";
+@import "./scss/components/dashboard/reservation.scss";
+@import "./scss/components/dashboard/room-card.scss";
+@import "./scss/components/dashboard/headline.scss";
+@import "./scss/components/dashboard/history-card.scss";
+@import "./scss/components/dashboard/reservation-history.scss";
+@import "./scss/components/dashboard/message.scss";
+@import "./scss/components/dashboard/message-card.scss";
+@import "./scss/components/spaces/spaces.scss";
+@import "./scss/components/spaces/office.scss";
+
+@import "./scss/utils/carousel";
+@import "./scss/utils/navbar";
+@import "./scss/utils/scrollbar";
+@import "./scss/utils/size";
+
+
+@import "./scss/footer";
+
+
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("~assets/fonts/eot/IRANSansWeb(FaNum)_Bold.eot");
+  src: url("~assets/fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+    url("~assets/fonts/woff/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+    url("~assets/fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("~assets/fonts/eot/IRANSansWeb(FaNum)_Medium.eot");
+  src: url("~assets/fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2") format("woff2"),
+    url("~assets/fonts/woff/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+    url("~assets/fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("~assets/fonts/eot/IRANSansWeb(FaNum)_Light.eot");
+  src: url("~assets/fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/woff2/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("~assets/fonts/woff/IRANSansWeb(FaNum)_Light.woff") format("woff"),
+    url("~assets/fonts/ttf/IRANSansWeb(FaNum)_Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("~assets/fonts/eot/IRANSansWeb(FaNum).eot");
+  src: url("~assets/fonts/eot/IRANSansWeb(FaNum).eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/woff2/IRANSansWeb(FaNum).woff2") format("woff2"),
+    url("~assets/fonts/woff/IRANSansWeb(FaNum).woff") format("woff"),
+    url("~assets/fonts/ttf/IRANSansWeb(FaNum).ttf") format("truetype");
+}
+
+
+.primary-text {
+  color: $primary
+}
+
+.primary-background {
+  background-color: $primary
+}
+
+.secondary-text {
+  color: $secondary
+}
+
+.secondary-background {
+  background-color: $secondary
+}
+
+// * {
+//   letter-spacing: -0.04rem
+// }

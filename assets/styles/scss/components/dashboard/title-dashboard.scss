@@ -1,0 +1,31 @@
+// :root {
+//     font-size: 62.5%;
+// }
+
+.navTitleBtn{
+    background-image: url('~assets/images/background-blob.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 50px;
+    padding: 40px;
+    &__title{
+        color: $darkColor;
+        font-size: 2.3em;
+        margin-bottom: 0px;
+        margin-right: 5%;
+    }
+
+    &__icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}

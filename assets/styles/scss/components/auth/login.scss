@@ -1,0 +1,111 @@
+// :root {
+//     font-size: 62.5%;
+// }
+
+html {
+    --antd-wave-shadow-color: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+//     border-color: #ffffff;
+// }
+
+.ant-input-affix-wrapper .ant-input:not(:last-child) {
+    padding-right: 10%;
+}
+
+.ant-btn-primary:hover{
+    border: 0px;
+    background-color: $primaryColor;
+}
+
+.flex_col_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    margin-right: 0px !important;
+    // background-image: url("~assets/images/formInputBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    // padding: 90px 0px 90px 0px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px -5px rgba(0, 0, 0, 0.1),
+    0 20px 10px -5px rgba(0, 0, 0, 0.04) !important;
+
+
+    &__header{
+        // background-image: url("~assets/images/loginTitleYellowBg.png");
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // padding: 50px;
+        color: #1C2C5D;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 10px;
+        align-items: center;
+        justify-content: center;
+
+        &__title{
+            color: #ffffff;
+            font-size: 2.5em;
+            margin-bottom: 0px;
+            margin-right: 10%;
+        }
+
+        &__icon{
+            width: 1.8rem;
+            height: 1.8rem;
+        }
+
+    }
+    
+
+    &__form{
+        margin-top: 15%;
+        margin-left: 10px;
+        margin-right: 10px;
+        &__title{
+            color: $darkColor;
+            font-size: 1.5em;
+            margin-bottom: 5%;
+        }
+
+        &__phoneNumber{
+            padding-right: 0px;
+            margin-bottom: 5%;
+            
+        }
+
+        &__button{
+            font-weight: bold;
+            color: white;
+            font-size: 2em;
+        }
+
+        &__error{
+            color: $redColor;
+            font-size: 1.3em;
+        }
+
+    }
+}
+
+@media(max-width: 1050px){
+
+}
+

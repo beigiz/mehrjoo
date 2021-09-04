@@ -1,0 +1,29 @@
+// :root {
+//     font-size: 62.5%;
+// }
+
+.homeBtn{
+    // box-shadow: 0 7px 25px -5px rgba(0, 0, 0, 0.1),
+    // 0 20px 10px -5px rgba(0, 0, 0, 0.04) !important;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: white;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
+    &__title{
+        color: $darkColor;
+        font-size: 2.3em;
+        margin-bottom: 0px;
+        margin-right: 10%;
+    }
+
+    &__icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

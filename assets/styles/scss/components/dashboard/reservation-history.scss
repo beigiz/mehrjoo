@@ -1,0 +1,26 @@
+.reservation_history{
+    
+    &__title{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        // padding: 5%;
+    }
+
+    &__empty{
+        margin-top: 150px;
+    }
+
+}
+
+@media(max-width: 992px){
+    .history_card{
+        // background-image: url("~assets/images/small-history-card-bg.png");
+    }
+}
+
+@media(max-width: 768px){
+    .history_card{
+        // background-image: url("~assets/images/too_small-history-card-bg.png");
+    }
+}

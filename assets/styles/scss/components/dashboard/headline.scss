@@ -1,0 +1,23 @@
+.head{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    &__line{
+        width: 40%;
+        height: 1px;
+        background: $darkColor;
+    }
+
+    &__title{
+        color: $darkColor;
+        font-size: 2em;
+        margin: 0%;
+
+    }
+
+}

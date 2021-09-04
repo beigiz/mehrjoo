@@ -1,0 +1,123 @@
+.ant-row-flex{
+    margin: 0px !important;
+} 
+
+.reservation{
+    direction: rtl;
+    
+
+    &__title{
+        direction: ltr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    &__headline{
+        margin-bottom: 40px;
+    }
+
+    &__select_room{
+        &__cards{
+            margin: 5% auto;
+            .active-room-card  {
+                background-color: $primaryColor;
+            }
+        }        
+    }
+
+
+    &__question{
+        color: $darkColor;
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    &__select_time{
+        &__title{
+            color: $darkColor;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            font-size: 1.8em;
+        }
+
+        &__free_time{
+            // margin-bottom: 20px !important;
+            &__item p{
+                background-color: $lightGray;
+                border-radius: 10px;
+                color: white;
+                text-align: center;
+                font-size: 1.6em;
+                padding: 0.5rem;
+            }
+        }
+
+        &__date_picker{
+            font-size: 1.6em;
+        }
+    }
+
+    &__select_date{
+        &__date_picker{
+            font-size: 1.6em;
+        }
+    }
+
+    &__payment{
+        &__card{
+            background-color: $lightGray;
+            color: white;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            padding-right: 5%;
+            // font-size: 1.6em;
+            margin-bottom: 100px !important;
+            border-radius: 20px;
+            box-shadow: 0 7px 25px -5px rgba(0, 0, 0, 0.1),
+            0 20px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            
+            &__item{
+                &__button{
+                    font-weight: bold;
+                    font-size: 18px;
+                    width: 150px;
+                    
+                }
+    
+                &__icon{
+                    width: 4rem;
+                }
+
+                &__discount_input{
+                    width: 150px;
+                    font-size: 14px !important;
+                }
+
+                &__title{
+                    font-size: 1.4em;
+                }
+
+                &__text{
+                    font-size: 1.6em;
+
+                    &--payable{
+                        -webkit-text-decoration-line: line-through; /* Safari */
+                        text-decoration-line: line-through; 
+                        display: inline;
+                    }
+
+                    &__final{
+                        &--discount{
+                            display: inline
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}
+

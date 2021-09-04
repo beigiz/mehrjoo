@@ -1,0 +1,10 @@
+$base-size: 24px;
+
+html { font-size: $base-size }
+
+.font-small {
+  font-size: $base-size / 2;
+}
+
+// use em for top bottom (scalable sizes)
+// use rem for left right (non-scalable sizes)

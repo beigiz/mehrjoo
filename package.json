@@ -1,0 +1,36 @@
+{
+  "name": "shiraz-startup-factory-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-carousel": "^1.0.5",
+    "@iconscout/vue-unicons": "0.0.2",
+    "@nuxtjs/axios": "^5.12.2",
+    "ant-design-vue": "^1.6.5",
+    "axios": "^0.20.0",
+    "moment-jalaali": "^0.9.2",
+    "nuxt": "^2.14.3",
+    "vue-animejs": "^2.1.1",
+    "vue-jalali-moment": "^1.0.0",
+    "vue-persian-datetime-picker": "^2.3.0",
+    "vue-pose": "^0.5.1",
+    "vue-rellax": "^0.1.0",
+    "vue-server-renderer": "^2.6.11"
+  },
+  "devDependencies": {
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "sass-loader": "^9.0.3",
+    "typescript": "^4.0.2"
+  }
+}

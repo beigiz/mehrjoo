@@ -1,0 +1,40 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/nuxt,nuxtjs,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=nuxt,nuxtjs,visualstudiocode
+
+### Nuxt ###
+# gitignore template for Nuxt.js projects
+#
+# Recommended template: Node.gitignore
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+### Nuxtjs ###
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+
+# Nuxt generate
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/nuxt,nuxtjs,visualstudiocode
+package-lock.json

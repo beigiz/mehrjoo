@@ -1,0 +1,34 @@
+.history_card{
+    font-size: 1.6em;
+    direction: rtl;
+    // background-image: url("~assets/images/history-card-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px -5px rgba(0, 0, 0, 0.1),
+    0 20px 10px -5px rgba(0, 0, 0, 0.04) !important;
+    padding-right: 5%;
+    margin-bottom: 30px;
+    color: $darkColor;
+
+    &__row{
+
+        &__data{
+            font-weight: bold;
+
+            &__price--discount{
+                -webkit-text-decoration-line: line-through; /* Safari */
+                text-decoration-line: line-through; 
+                display: inline;
+            }
+
+            &__final_price{
+                display: none;
+                &--discount{
+                    display: inline
+                }
+            }
+            
+        }
+    }
+}

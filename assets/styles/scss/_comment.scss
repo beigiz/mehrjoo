@@ -1,0 +1,122 @@
+.comments {
+  width: 750px;
+  margin: auto;
+
+  &__header {
+    text-align: center;
+
+    .title-hr {
+      background-color: lighten($primary, 15%);
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+
+  .comment {
+    padding: 20px;
+    padding-bottom: 50px;
+
+    &__card {
+      padding: 15px;
+      text-align: center;
+      border-radius: $medium-br;
+      background-color: white;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      width: 100%;
+
+      // height: 200px;
+      img {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        object-fit: cover;
+        border-radius: 50px;
+        // border: 4px solid $primary;
+        margin-bottom: 5px;
+      }
+
+      h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+
+        span {
+          font-weight: 400;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        direction: rtl;
+        line-height: 28px;
+      }
+    }
+  }
+}
+
+.index__comment-container {
+  padding: 50px 25px;
+  background: linear-gradient(-45deg, #83cedb, transparent);
+}
+
+@media screen and (max-width: 1025px) {
+  .comments {
+    width: 100%;
+    margin: auto;
+
+    &__header {
+      text-align: center;
+
+      p {
+        font-weight: 500;
+        font-size: 18px;
+      }
+    }
+
+    .comment {
+      padding: 20px;
+      padding-bottom: 50px;
+
+      &__card {
+        padding: 15px;
+        text-align: center;
+        border-radius: $medium-br;
+        background-color: white;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        width: 100%;
+
+        // height: 200px;
+        img {
+          width: 100px;
+          height: 100px;
+          margin: auto;
+          object-fit: cover;
+          border-radius: 50px;
+          // border: 4px solid $primary;
+          margin-bottom: 5px;
+        }
+
+        h3 {
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 20px;
+
+          span {
+            font-weight: 400;
+          }
+        }
+
+        p {
+          font-size: 16px;
+          direction: rtl;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}

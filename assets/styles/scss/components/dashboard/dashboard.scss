@@ -1,0 +1,96 @@
+.dashboard{
+    font-size: 10px !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    &__content{
+        padding: 0% 10% 0% 10%;
+        // background-image: url("~assets/images/dashboard-background.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        flex: 3;
+        overflow-y: auto;
+    }
+
+    &__menu{
+        flex: 1;
+
+       
+    }
+
+    &__mobile_menu{
+        display: none;
+    }
+    &__homeBtn{
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        direction: ltr;
+    }
+}
+
+@media(max-width: 1280px){
+    .navBtn{
+        &__title{
+            font-size: 1.5em;
+        }
+    }
+    .dashboard{
+    
+        &__mobile_menu{
+          display: none;  
+        }
+    }
+}
+
+@media(max-width: 1050px){
+    .navBtn{
+        width: fit-content;
+        &__title{
+            display: none;
+        }
+    }
+    .navTitleBtn{
+        background-image: none !important;
+    }
+    .profile__form__container_button__submit_button{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .navBtn{
+        width: 70%;
+        &__title{
+            display: block;
+        }
+    }
+
+    .dashboard{
+
+        &__menu{
+            position: absolute!important;
+            width: 300px;
+            right: -300px;
+            transition: 0.3s;
+            &--open{
+                display: flex;
+                right: 0;
+                transition: 0.3s;
+                z-index: 1000;
+            }
+
+        }
+    
+        &__mobile_menu{
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 1001;
+        }
+    }
+}
+

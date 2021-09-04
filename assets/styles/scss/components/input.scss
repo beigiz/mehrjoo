@@ -1,0 +1,127 @@
+.input-label-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .ant-form-item-label {
+        text-align: right;
+        width: 10%;
+        direction: rtl;
+        label {
+            font-size: 1.6em;
+            color: $labelGray;
+            // margin-right: 120px;
+            &::after {
+                margin: 0 2px 0 8px;
+            }
+        }
+    }
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+    color: #fff;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+}
+
+.ant-form label {
+    font-size: 16px;
+    color: $darkColor;
+}
+
+.ant-form-item-label {
+    text-align: right;
+}
+
+.ant-input:focus, .ant-input:hover, .ant-input:active, .ant-input:visited, .ant-input:focus-within {
+    border-color: $primaryColor;
+}
+
+.ant-input:hover, .ant-input:active, .ant-input:visited, .ant-input:focus-within {
+    border-color: $primaryColor;
+}
+
+// ::selection {
+//     color: #fff;
+//     background: #112389;
+// }
+
+.ant-btn-primary{
+    background-color: $primaryColor;
+    border: 0px;
+}
+
+
+.ant-input-group > .ant-input:first-child, .ant-input-group-addon:first-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.ant-input-search-enter-button + .ant-input-group-addon .ant-input-search-button, .ant-input-search-enter-button input + .ant-input-group-addon .ant-input-search-button {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.ant-input-search-enter-button + .ant-input-group-addon, .ant-input-search-enter-button input + .ant-input-group-addon {
+    padding: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.vpd-input-group label {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.vpd-input-group input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.ant-input-search-enter-button + .ant-input-group-addon, .ant-input-search-enter-button input + .ant-input-group-addon {
+    padding: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.ant-modal-confirm-body{
+    direction: rtl;
+}
+
+.ant-modal-confirm-warning .ant-modal-confirm-body > .anticon, .ant-modal-confirm-confirm .ant-modal-confirm-body > .anticon {
+    display: none;
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns {
+    float: left;
+    direction: rtl;
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns button + button {
+    margin-right: 8px;
+}
+
+.ant-input-search-enter-button input {
+    border-width: 0;
+    border-left-width: 1px;
+}
+
+.ant-input-clear-icon {
+    position: absolute;
+    left: 10px;
+}
+
+.ant-input-affix-wrapper .ant-input-suffix {
+    position: absolute;
+    left: 10px;
+}
+
+.ant-collapse > .ant-collapse-item:last-child, .ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
+    font-size: 20px;
+}

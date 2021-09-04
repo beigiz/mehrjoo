@@ -1,0 +1,48 @@
+p{
+    margin: 0px;
+}
+
+.room_card{
+    transition: box-shadow 0.3s;
+    background: $lightGray;
+    border-radius: 10px;
+    padding: 0px 15px 0px 15px;
+
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // align-items: center;
+    color: white;
+    // font-size: 1.4em;
+
+    &__title{
+        font-weight: bold;
+        font-size: 1.6em;
+    }
+
+    &__icon{
+        width: 2rem;
+        direction: ltr;
+    }
+
+    &__capacity{
+        font-size: 1.4em;
+    }
+    
+    &__price{
+        font-size: 1.4em;
+        direction: ltr;
+
+    }
+
+}
+
+.first_row{
+    margin-bottom: 50px;
+}
+
+.room_card:hover{
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.1),
+    0 20px 10px -5px rgba(0, 0, 0, 0.04) !important;
+    transition: box-shadow 0.3s;
+}
