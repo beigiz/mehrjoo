@@ -35,22 +35,22 @@ export default {
         {
           id: 1,
           name: "کارخانجات مخابراتی ایران",
-          src: require("~/assets/images/partners/mokhaberat.png"),
+          // src: require("~/assets/images/partners/mokhaberat.png"),
         },
         {
           id: 2,
           name: "استانداری فارس",
-          src: require("~/assets/images/partners/ostandari.jpg"),
+          // src: require("~/assets/images/partners/ostandari.jpg"),
         },
         {
           id: 3,
           name: "معاونت علمی و فناوری ریاست جمهوری",
-          src: require("~/assets/images/partners/riasat.jpg"),
+          // src: require("~/assets/images/partners/riasat.jpg"),
         },
         {
           id: 4,
           name: "گروه سرمایه گذاری عطار",
-          src: require("~/assets/images/partners/logo Attar - ok.png"),
+          // src: require("~/assets/images/partners/logo Attar - ok.png"),
         },
         // {
         //   id: 5,
@@ -60,7 +60,7 @@ export default {
         {
           id: 6,
           name: "وزارت ارتباطات و فناوری اطلاعات",
-          src: require("~/assets/images/partners/Fars-2.jpg"),
+          // src: require("~/assets/images/partners/Fars-2.jpg"),
         },
       ],
     };
